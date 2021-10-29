@@ -1,0 +1,8 @@
+.search-back {
+  background-color: rgba(0, 0, 0, 0.762);
+  display: flex;
+  justify-content: center;
+}
+.artist-search {
+  color: white;
+}

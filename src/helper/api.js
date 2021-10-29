@@ -163,17 +163,19 @@ export const fetchTopAlbums = async () => {
     return response.data.albums
 }
 
-export const fetchSearch = async () => {
+export const fetchSearch = async (id) => {
     const config = {
         method: 'get',
-        url: `${basicUrl}/search?query=drake&type=artist`,
+        url: `${basicUrl}/search?query=${id}&type=artist`,
         headers: { 
                   'apikey': 'NWNmNzlhMDMtMGUzYi00OGJiLTg0YTUtMTRhOTcwNTcxMjJj', 
                   'Cookie': 'ak_bmsc=347C9925790D742241A03CC1115C677F~000000000000000000000000000000~YAAQ3zEUAh7ufLZ8AQAAPun5vA0eRQODUDyaKM/ViWs/bQqE+GHtLWf7uMcv8RmAFrvk8OKNfuebSCyq3ysM/lkIutKz8OZiLIfe0tABq0MBxa5WTCnd7XN85p0c7yds3KbqhpHS84ns+DBr4hY3lp93N3x9eQAQamYmYct2qxDScNVIZaRP8ZQJMUXJqj1s0mysfSvjyr020OAJaPU/4DSm2o54P6dz30uo5GqA008llDVcK8MpungEZv2vmf0XJHt96BP1SlRVNv17fTA2i/4PjSpy3NYnP0UN1pr3Ig0hCKI170fZBVuPa4uEtmGFAObrRsPQl9dPAjInr1iK9Ex62s5t+hfHMMxLg9yduZmPFmGJv3ZWgqkGtA==',
         },
     }
     const response = await axios(config)
-    return response.data.search.artists
+    return response.data.search.data.artists
+    
+
 }
 
 

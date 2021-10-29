@@ -10,13 +10,17 @@ import GenreDetail from './pages/GenreDetail';
 import {useState, useEffect } from 'react'
 import {fetchGenres} from './helper/api'
 import Artists from './pages/Artists';
+import ArtistCard from './components/ArtistCard';
 
 function App() {
   const [genres, setGenres] = useState([])
     
     useEffect(() => {
         fetchGenres().then(setGenres)
+
     }, [])
+
+
 
   return (
     <Router>
