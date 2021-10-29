@@ -1,0 +1,37 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-height: 80vh;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+}
+.image-shot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-shot img {
+  max-width: 100%;
+  min-width: 50%;
+  border-radius: 20px;
+  box-shadow: 3px 5px #3b3b3ba7;
+}
+.group h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.bio {
+  margin-top: 20px;
+  background-color: rgb(13, 38, 57);
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 800px;
+  overflow: scroll;
+}

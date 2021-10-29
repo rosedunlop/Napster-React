@@ -1,0 +1,11 @@
+footer {
+  background-color: rgba(19, 19, 19, 0.906);
+  height: 100px;
+  display: flex;
+}
+
+.LinkedIn {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 20px;
+}

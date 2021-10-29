@@ -1,0 +1,19 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.762);
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav img {
+  height: 60px;
+  padding: 10px;
+}
+input[type="text"] {
+  border-radius: 10px;
+  height: 25px;
+  width: 80vw;
+  text-align: center;
+}

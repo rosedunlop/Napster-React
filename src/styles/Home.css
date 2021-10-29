@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://gb.napster.com/assets/runway_b2b/home/b2b_homepage/hero-889b097d82c9a2ffc368e04784512fe7d9ca56744ff47730cc0af46b9ca765db.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.vl {
+  border-left: 6px solid lightskyblue;
+  box-shadow: 0 0 4px lightskyblue, 0 0 8px lightskyblue, 0 0 0px lightskyblue,
+    0 0 80px lightskyblue, 0 0 1px lightskyblue;
+
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+}
+.background {
+  display: flex;
+  width: 100%;
+}
+
+.genre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+}
+.genre h2 {
+  font-size: 50px;
+
+  font-weight: 600;
+}
+
+.trending h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  width: 50%;
+  padding: 20px;
+}
+.genre p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+.trending p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+span {
+  font-weight: 100;
+}
+
+.Link {
+  color: white;
+  border: 5px solid lightskyblue;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+.link-trend {
+  border: 5px solid rgb(144, 233, 169);
+}
+.link-genre {
+  position: relative;
+  top: 10px;
+}
+
+.Link:hover {
+  background-color: lightskyblue;
+}
+.link-trend:hover {
+  background-color: rgb(144, 233, 169);
+}

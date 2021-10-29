@@ -1,0 +1,41 @@
+.Trending {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(13, 38, 57);
+  border-bottom: 2px solid rgb(194, 194, 194);
+  justify-content: space-around;
+}
+.top-artists {
+  border-bottom: 2px solid rgb(194, 194, 194);
+  padding-left: 10px;
+  width: 33.33%;
+}
+.top-artists h3 {
+  padding: 20px;
+}
+.top-tracks {
+  border-bottom: 2px solid rgb(194, 194, 194);
+  width: 33.33%;
+  padding-left: 10px;
+}
+.top-tracks h3 {
+  padding: 20px;
+}
+.top-albums {
+  width: 33.33%;
+  border-bottom: 2px solid rgb(194, 194, 194);
+  padding-left: 10px;
+}
+.top-albums h3 {
+  padding: 20px;
+}
+.headers {
+  border-bottom: 2px solid rgb(215, 215, 215);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
