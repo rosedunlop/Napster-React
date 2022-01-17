@@ -9,19 +9,15 @@ import ArtistSearchCard from './ArtistSearchCard'
 const Header = () => {
     const [search, setSearch] = useState('')
     const [searchList, setSearchList] = useState([])
-
-    
+  
     const handleChange = (event) => {
-            setSearch(event.target.value);
-            console.log(search);
-        };
-
+            setSearch(event.target.value)
+        }
 
     const handleSubmit = (event) => {
         event.preventDefault()
         
         fetchSearch(search).then(setSearchList)
-        console.log(searchList)
     }
     
 

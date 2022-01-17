@@ -20,7 +20,6 @@ const GenreDetail = ({genres}) => {
         fetchGenreTopTracks(id).then(setGenreTracks)
         fetchGenreTopAlbums(id).then(setGenreAlbums)
         fetchGenreNewRelease(id).then(setGenreReleases)
-        console.log(id)
     },[] )
 
 
