@@ -32,7 +32,7 @@ Find the deployed version here:
 
 ## Team Members
 
-- Reisli Hysa: https://github.com/ReiHysa
+Reisli Hysa: https://github.com/ReiHysa
 
 ## Technologies Used
 
@@ -157,7 +157,7 @@ const [genreTracks, setGenreTracks] = useState([])
 
 Here I passed the id of the genre selected by the user into the request using useParams() and then I stored the response’s data into the state variables. Which is then mapped into different components to be displayed on the front end.
 
-### Search Barß
+### Search Bar
 
 Another addition made was adding some functionality where you could search for an artist. The Napster API provided documentation on how to query for artists, so as you can see below I set the variable of search to the users input and then passed that into the request called fetchSearch when the form was submitted and then set the response to another state variable that I later displayed on the front-end.
 
