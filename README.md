@@ -32,7 +32,7 @@ Find the deployed version here:
 
 ### Team Members
 
-- Reisli Hysa (https://github.com/ReiHysa)
+- Reisli Hysa: https://github.com/ReiHysa
 
 ### Technologies Used
 
@@ -55,7 +55,7 @@ Dev Tools:
 
 ### Approach Taken
 
-**Planning and Preparation:**\
+**Planning and Preparation:**
 
 Given that we only had two days to build this project Reisli and I had to put all our ideas for the project together quickly. Once we had decided to use the Napster API to create a music app we tested out the API on Postman and made some basic requests, to ensure we were getting back the data we needed.
 
@@ -71,7 +71,7 @@ Once we decided on exactly what we wanted to be in the app we made some basic wi
 
 Once we were happy with our API and the structure of each page we moved on to working on the front-end. As this was a pair coded project, we decided to use VS Code’s live share extension which allowed us to work together at the same time and also delegate work individually in places.
 
-**Trending**\
+**Trending**
 
 In order to keep our code clean and to avoid making multiple requests on different components we made a helpers api file where we exported the different types of requests so we could use them anywhere. To begin with I used console.logs when making requests in order to visually see the response we were getting back before I showcased it on the front-end.
 
@@ -123,7 +123,7 @@ const Trending = () => {
 
 As you can see here we made three requests to get the top 10 tracks, artists and albums and stored the response’s data in state. We then mapped each of the state variables into different components.
 
-**Genre**\
+**Genre**
 
 For the genre page it was slightly more complicated, as we first had each type of genre showcased on a page for the user to choose which one they wanted to browse. Then after clicking on that particular genre we had to fetch the top albums, tracks, artists and new releases according to the particular genre's id.
 
@@ -157,7 +157,7 @@ const [genreTracks, setGenreTracks] = useState([])
 
 Here I passed the id of the genre selected by the user into the request using useParams() and then I stored the response’s data into the state variables. Which is then mapped into different components to be displayed on the front end.
 
-**Search Bar**\
+**Search Bar**
 
 Another addition made was adding some functionality where you could search for an artist. The Napster API provided documentation on how to query for artists, so as you can see below I set the variable of search to the users input and then passed that into the request called fetchSearch when the form was submitted and then set the response to another state variable that I later displayed on the front-end.
 
@@ -187,7 +187,7 @@ Another addition made was adding some functionality where you could search for a
 
 ```
 
-**Styling**\
+**Styling**
 
 Once we were happy with the structure of our pages and the functionality of the app we began to style. We used CSS to style all our pages and made different files for each page to ensure we didn’t have too much code in one file.
 
@@ -204,13 +204,13 @@ Add later.
 
 ### Wins and Challenges
 
-**Wins**\
+**Wins**
 
 - Overall I was very happy with the styling of the app, I think we managed to achieve a really professional looking theme, especially on the home page.
 - We were both really happy that we managed to get around to adding search functionality as this was a stretch goal.
 - This was my first experience working on a project with someone else and I thoroughly enjoyed it and learnt a lot on how to work as a team.
 
-**Challenges**\
+**Challenges**
 
 - One of the main blockers I had during the project was with the images in Napster’s API. In their data they had an API within the request which led to us having to make multiple requests when fetching images and displaying them on the front-end. This took some time to figure out and was a bit of a challenge, but by speaking through it together as a team we overcame this small issue.
 
