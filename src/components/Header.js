@@ -1,8 +1,7 @@
 import '../styles/Header.css'
 import { Link } from 'react-router-dom'
-import { useState, useEffect} from 'react'
+import { useState } from 'react'
 import { fetchSearch } from '../helper/api'
-import ShowSearch from './ShowSearch'
 import ArtistSearchCard from './ArtistSearchCard'
 
 

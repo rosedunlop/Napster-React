@@ -11,3 +11,7 @@ body {
   width: 80%;
   height: 80%;
 }
+
+main {
+  height: 120vh;
+}

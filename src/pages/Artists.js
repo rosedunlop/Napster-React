@@ -3,7 +3,6 @@ import { useParams } from 'react-router'
 import { fetchArtist, fetchArtistImage, fetchArtistBio } from '../helper/api'
 import ArtistInfo from '../components/ArtistInfo'
 import '../styles/Artist.css'
-// import { fetchGenreNewRelease } from '../helper/api'
 
 const Artists = () => {
     const [artist , setArtist] = useState([])

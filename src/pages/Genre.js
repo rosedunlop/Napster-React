@@ -1,8 +1,6 @@
-import { useState, useEffect } from "react"
-import axios from 'axios'
-import GenreCard from "../components/GenreCard"
+
+import GenreCard from "../components/GenreCard.js"
 import '../styles/Genre.css'
-import { fetchGenres } from "../helper/api"
 
 const Genre = ({genres}) => {
     return (
