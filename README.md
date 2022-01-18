@@ -28,7 +28,7 @@
 
 Napster is an app where we used Napster’s API to showcase the top artists, tracks and albums in the UK. It is also somewhere where you can search for trending music by particular genre and you can search for any artist you like. This was a 48 hour hackathon pair coded project and was my first experience using React and a public API.
 
-Find the deployed version here:
+**Find the deployed version here:** https://napster-project2.netlify.app/
 
 ## Team Members
 
@@ -195,7 +195,25 @@ We were both incredibly happy with the final product given it was not only our f
 
 ## Finished Product
 
-Add later.
+**_Homepage_**
+
+![](images/naoster-home.png)
+
+**_Trending_**
+
+![](images/trending.png)
+
+**_Genres_**
+
+![](images/genrelist.png)
+
+**_Genre Detail_**
+
+![](images/genredetail.png)
+
+**_Artist Detail_**
+
+![](images/artist.png)
 
 ## Bugs
 
